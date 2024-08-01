@@ -227,7 +227,7 @@ span {
   margin: 1rem 0 3rem;
 }
 
-.technologies-media a {
+.technologies-media i {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -242,12 +242,12 @@ span {
   transition: 0.5s ease;
 }
 
-.technologies-media > a > i {
+.technologies-media > i > span {
   font-size: 4rem;
   color: var(--text-color);
 }
 
-.technologies-media a:hover {
+.technologies-media i:hover {
   background: var(--main-color);
   color: var(--snd-bg-color);
   box-shadow: 0 0 1rem --main-color;
@@ -265,7 +265,7 @@ span {
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
 }
@@ -308,7 +308,7 @@ span {
 }
 
 .portfolio-layer h4 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .portfolio-layer p {
@@ -376,7 +376,6 @@ span {
 /*Footer*/
 
 .footer {
-  background: var(--snd-bg-color);
   padding: 2rem 9%;
   align-items: center;
   flex-wrap: wrap;
@@ -484,7 +483,7 @@ span {
   }
 
   .portfolio-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
