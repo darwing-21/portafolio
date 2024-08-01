@@ -501,6 +501,9 @@ span {
     width: 100vw;
     margin-top: 4rem;
   }
+  .portfolio-layer p{
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 450) {
