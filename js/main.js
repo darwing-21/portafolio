@@ -56,7 +56,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /* ===================  navbar =================== */
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Developer Junior', 'QA Tester Junior'],
+    strings: ['Software Developer Junior', 'QA Engineer Junior'], 
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
